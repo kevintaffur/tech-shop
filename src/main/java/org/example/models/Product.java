@@ -39,6 +39,13 @@ public class Product {
         this.launchYear = launchYear;
     }
 
+    public Product(String name, String type, Shelving shelving, int launchYear) {
+        this.name = name;
+        this.type = type;
+        this.shelving = shelving;
+        this.launchYear = launchYear;
+    }
+
     public int getId() {
         return id;
     }
